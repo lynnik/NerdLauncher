@@ -67,7 +67,8 @@ public class NerdLauncherFragment extends Fragment {
     mRecyclerView.setAdapter(new ActivityAdapter(activities));
   }
 
-  private class ActivityHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+  private class ActivityHolder extends RecyclerView.ViewHolder
+      implements View.OnClickListener {
 
     private ResolveInfo mResolveInfo;
     private TextView mNameTextView;
